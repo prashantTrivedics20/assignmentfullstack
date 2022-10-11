@@ -61,6 +61,7 @@ nav ul li a:hover {
     float: right;
     color: white;
     padding: 12px 75px;
+    border-radius: 4px;
 }
 
 .navbar input {
@@ -71,7 +72,7 @@ nav ul li a:hover {
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 20px;
     width: 100%;
     height: 100px;
     background-color: plum;
@@ -85,4 +86,134 @@ footer {
 
 #footer {
     padding-bottom: 100px;
+}
+
+
+/* this is my css */
+
+#value2 {
+    margin-top: 120px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 400px;
+    height: 250px;
+    background-color: cadetblue;
+    border: 2px solid pink;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+#des {
+    margin-top: 20px;
+}
+
+.para {
+    margin-top: 10px;
+}
+
+#des .para {
+    width: 100%;
+    height: 300px;
+    background-color: pink;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+#des1 .para1 {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    /* padding: 20px; */
+}
+
+.para1 {
+    margin: 20px;
+}
+
+.para button {
+    margin: auto;
+    justify-content: center;
+    width: 90px;
+    height: 30px;
+    align-items: center;
+    border: 2px salmon;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 3px;
+}
+
+.para button:hover {
+    border: 2px salmon;
+    background-color: cyan;
+    color: black;
+}
+
+#b1:hover {
+    background-color: cornflowerblue;
+}
+
+#b2:hover {
+    background-color: palevioletred;
+}
+
+#b3:hover {
+    background-color: peru;
+}
+
+#b4:hover {
+    background-color: cornflowerblue;
+}
+
+#b5:hover {
+    background-color: blueviolet;
+}
+
+#b6:hover {
+    background-color: yellow;
+}
+
+.para {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content button {
+    width: 90px;
+    height: 30px;
+    border: 2px salmon;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 3px;
+}
+
+.content button:hover {
+    border: 2px salmon;
+    background-color: cyan;
+    color: black;
+}
+
+.content h1 {
+    color: darkmagenta;
+}
+
+.content h1:hover {
+    color: gold;
 }
